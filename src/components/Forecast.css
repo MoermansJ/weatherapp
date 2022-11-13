@@ -1,0 +1,99 @@
+.forecast {
+  padding-bottom: 20px;
+}
+
+.forecast__item {
+  width: 85vw;
+  margin: auto;
+  height: auto;
+  color: rgba(255, 255, 255, 0.9);
+  border-bottom: 2px solid rgba(255, 255, 255, 0.9);
+}
+
+.forecast__item:last-child {
+  border-bottom: none;
+}
+
+.forecast__item:hover {
+  cursor: pointer;
+}
+
+.forecast__title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 50px;
+  font-size: x-large;
+}
+
+.forecast__titleLeft {
+  display: flex;
+  align-items: center;
+  height: 50px;
+}
+
+.forecast__Itempanel {
+  margin: auto auto 15px auto;
+  font-weight: 500;
+  animation: fadein 0.5s;
+  width: 100%;
+}
+
+.forecast__panel {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+}
+
+.forecast-iconSet {
+  display: flex;
+  justify-content: space-between;
+  width: 100px;
+}
+
+.forecast-icon {
+  height: 25px;
+  filter: invert();
+  opacity: 0.5;
+  transition: ease-in-out 0.15s;
+}
+
+#thermometer:hover,
+#wind:hover,
+#precipitation:hover {
+  opacity: 1;
+}
+
+.active {
+  opacity: 1;
+}
+
+.precipitation-icon {
+  height: 65%;
+}
+
+.wind-direction {
+  height: 40%;
+  filter: invert();
+  opacity: 0.9;
+}
+
+.test {
+  position: relative;
+  height: 80px;
+  width: 50px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+@keyframes fadein {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}

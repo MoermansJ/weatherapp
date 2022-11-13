@@ -1,0 +1,16 @@
+.App {
+  width: 100vw;
+  height: 100vh;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+#day {
+  background: url("../public/background/day.png") center;
+}
+
+#night {
+  background: url("../public/background/night.png") center;
+}

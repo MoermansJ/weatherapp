@@ -1,0 +1,16 @@
+.searchbar {
+  width: 85vw;
+  margin: auto;
+  opacity: 0.8;
+  padding-top: 30px;
+  transition: ease-in-out all 0.25s;
+  z-index: 1;
+}
+
+.searchbar__option:first-child {
+  border-radius: 8px 8px 0px 0px;
+}
+
+.searchbar__option:last-child {
+  border-radius: 0px 0px 8px 8px;
+}

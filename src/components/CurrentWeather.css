@@ -1,0 +1,56 @@
+.weather {
+  width: 85vw;
+  height: auto;
+  color: #fff;
+  margin: auto;
+  padding: 0 20px 20px 20px;
+}
+
+.top {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+}
+
+.weather-description {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1;
+  margin-top: 2px;
+  text-align: center;
+}
+
+.temperature {
+  font-weight: 600;
+  font-size: 70px;
+  width: auto;
+  letter-spacing: -5px;
+  margin: 10px;
+}
+
+.twilight {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  z-index: 0;
+  left: 0px;
+  opacity: 0.8;
+  margin-top: 25px;
+}
+
+.twilight > div {
+  display: flex;
+  align-items: flex-end;
+}
+
+.twilight > div > img {
+  padding: 5px;
+  filter: invert();
+}
+
+.twilight > div > span {
+  color: rgba(255, 255, 255, 0.9);
+  padding-bottom: 2px;
+}

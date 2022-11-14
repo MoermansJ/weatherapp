@@ -3,10 +3,10 @@
 }
 
 .forecast__item {
-  width: 85vw;
+  width: 100%;
   margin: auto;
   height: auto;
-  color: rgba(255, 255, 255, 0.9);
+  color: rgba(255, 255, 255);
   border-bottom: 2px solid rgba(255, 255, 255, 0.9);
 }
 
@@ -76,16 +76,6 @@
   height: 40%;
   filter: invert();
   opacity: 0.9;
-}
-
-.test {
-  position: relative;
-  height: 80px;
-  width: 50px;
-  margin: auto;
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-end;
 }
 
 @keyframes fadein {

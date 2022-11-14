@@ -1,10 +1,13 @@
 .App {
-  width: 100vw;
+  width: 100%;
+  max-width: 670px;
   height: 100vh;
   margin: auto;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  padding-left: 40px;
+  padding-right: 40px;
 }
 
 #day {

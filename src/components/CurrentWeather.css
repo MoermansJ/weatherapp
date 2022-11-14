@@ -1,9 +1,8 @@
 .weather {
-  width: 85vw;
+  width: 100%;
   height: auto;
   color: #fff;
   margin: auto;
-  padding: 0 20px 20px 20px;
 }
 
 .top {
@@ -28,29 +27,4 @@
   width: auto;
   letter-spacing: -5px;
   margin: 10px;
-}
-
-.twilight {
-  display: flex;
-  flex-direction: column;
-  position: absolute;
-  z-index: 0;
-  left: 0px;
-  opacity: 0.8;
-  margin-top: 25px;
-}
-
-.twilight > div {
-  display: flex;
-  align-items: flex-end;
-}
-
-.twilight > div > img {
-  padding: 5px;
-  filter: invert();
-}
-
-.twilight > div > span {
-  color: rgba(255, 255, 255, 0.9);
-  padding-bottom: 2px;
 }

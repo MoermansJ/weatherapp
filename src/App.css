@@ -1,19 +1,17 @@
 .App {
-  width: 100%;
-  max-width: 670px;
   height: 100vh;
-  margin: auto;
+  max-width: 670px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  padding-left: 40px;
-  padding-right: 40px;
+  padding: 0px 20px;
+  background-repeat: no-repeat;
 }
 
-#day {
+.day {
   background: url("../public/background/day.png") center;
 }
 
-#night {
+.night {
   background: url("../public/background/night.png") center;
 }

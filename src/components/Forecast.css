@@ -1,11 +1,12 @@
 .forecast {
-  padding-bottom: 20px;
+  background: rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  padding: 20px 24px;
+  margin-bottom: 20px;
 }
 
 .forecast__item {
   width: 100%;
-  margin: auto;
-  height: auto;
   color: rgba(255, 255, 255);
   border-bottom: 2px solid rgba(255, 255, 255, 0.9);
 }
@@ -43,6 +44,8 @@
   display: flex;
   justify-content: space-around;
   text-align: center;
+  flex-wrap: wrap;
+  gap: 8px;
 }
 
 .forecast-iconSet {
@@ -69,11 +72,11 @@
 }
 
 .precipitation-icon {
-  height: 65%;
+  height: 60px;
 }
 
 .wind-direction {
-  height: 40%;
+  height: 32px;
   filter: invert();
   opacity: 0.9;
 }

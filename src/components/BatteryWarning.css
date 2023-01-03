@@ -12,7 +12,8 @@
 
 .tooltip {
   position: relative;
-  display: inline-block;
+  /* display: inline-block; */
+  display: none;
 }
 
 .hidden {
